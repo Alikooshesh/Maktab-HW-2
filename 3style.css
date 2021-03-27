@@ -1,3 +1,7 @@
+@font-face{
+    font-family: "Worksans";
+    src: url('WorkSans-VariableFont_wght.ttf') format('truetype');
+}
 
 
 html,body{
@@ -9,4 +13,5 @@ html,body{
 
 *{
     box-sizing: border-box;
+    font-family: "Worksans";
 }
