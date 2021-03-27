@@ -24,6 +24,16 @@ main{
     background-color: #ECEEF0;
 }
 
+.sign-in-dark{
+    width: 35rem;
+    height: 8rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    background-color: rgba(0, 0, 0, 0.644);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .sign-in{
     width: 35rem;
@@ -39,6 +49,8 @@ main{
     align-items: center;
     justify-content: center;
 }
+
+
 
 .sign-text{
     color: rgb(255, 255, 255);
