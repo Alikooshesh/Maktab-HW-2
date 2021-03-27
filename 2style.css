@@ -105,12 +105,14 @@ main{
     width: 50%;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 }
 
 .left-link{
     width: 50%;
     display: flex;
     justify-content: flex-start;
+    align-items: center;
 }
 
 
@@ -129,4 +131,9 @@ main{
     border-radius: 10rem;
     color: white;
     font-size: 1rem;
+}
+
+.forgot{
+    color: rgba(0, 0, 0, 0.356);
+    text-decoration: none;
 }
