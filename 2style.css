@@ -4,6 +4,7 @@
 }
 
 *{
+    box-sizing: border-box;
     font-family: "Worksans";
 }
 
@@ -61,6 +62,71 @@ main{
     height: 20rem;
     padding-top:3rem ;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
 
+}
+
+.input-text-box{
+    width: 20rem;
+    height: 2rem;
+    outline: none;
+    border: none;
+    border-bottom: 0.1rem solid rgba(0, 0, 0, 0.24);
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.input-text-box::placeholder{
+    color: rgba(0, 0, 0, 0.425);
+    font-size: 0.7rem;
+}
+
+.pass-input{
+    margin-left: 1.3rem;
+}
+
+.input-helper-text{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1rem;
+    
+}
+
+.links{
+    width: 20rem;
+    margin-left: 10.7rem;
+    display: flex;
+    margin-bottom: 2rem;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.356);
+    font-size: 0.8rem;
+}
+
+.right-link{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.left-link{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.login-btn-div{
+    width: 20rem;
+    margin-left: 10.7rem;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.login-btn{
+    background-color: #6FB554;
+    width: 10rem;
+    height: 3rem;
+    border: 1px solid transparent;
+    border-radius: 10rem;
+    color: white;
+    font-size: 1rem;
 }
