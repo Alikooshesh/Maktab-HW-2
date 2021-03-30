@@ -15,3 +15,73 @@ html,body{
     font-family: "Worksans";
     box-sizing: border-box;
 }
+
+.header-container{
+    margin-top: 4%;
+    margin-bottom: 2%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.header-top-div{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-list-div{
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+}
+
+.social-pages-div{
+    display: flex;
+    align-items: center;
+}
+
+.social-pages{
+    margin-right: 1rem;
+}
+
+.fa-facebook-f{
+    color: #2449af;
+}
+
+.fa-twitter{
+    color: #4A9FEA;
+}
+
+.fa-instagram{
+    color: #df5ba6;
+}
+
+.logo-dot{
+    color: #EC576D;
+}
+
+.fa-search{
+    color: white;
+    margin-top: 0.5rem;
+}
+
+.search-div{
+    background-color: #EC576D;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.list-text{
+    margin-left: 1rem;
+}
+
+.list:hover{
+    color: #EC576D;
+    cursor: pointer;
+}
