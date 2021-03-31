@@ -32,7 +32,7 @@ html,body{
 }
 
 .header-list-div{
-    margin-top: 3%;
+    margin-top: 1.5rem;
     display: flex;
     justify-content: center;
 }
@@ -58,19 +58,20 @@ html,body{
     color: #df5ba6;
 }
 
+
 .logo-dot{
     color: #EC576D;
 }
 
 .fa-search{
     color: white;
-    margin-top: 0.5rem;
+    margin-top: 1rem;
 }
 
 .search-div{
     background-color: #EC576D;
-    width: 2rem;
-    height: 2rem;
+    width: 3rem;
+    height: 3rem;
     display: flex;
     align-self: center;
     justify-content: center;
@@ -90,7 +91,6 @@ html,body{
     width: 98%;
     margin-left: 1%;
     margin-top: 2%;
-    background-color: rgb(160, 9, 9);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -101,12 +101,17 @@ html,body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: 1px solid transparent;
+}
+
+.post:hover{
+    cursor: pointer;
 }
 
 .img-post{
+    min-width: 12rem;
     width: 100%;
     height: 35rem;
-    background-image: url("image1.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -114,10 +119,32 @@ html,body{
     align-items: flex-end;
     border-radius: 0.1rem;
     position: relative;
+    box-shadow: 0.05rem 0.5rem 0.5rem #0000005e;
+}
+
+.img-post1{
+    background-image: url("image1.jpg");
+}
+
+.img-post2{
+    background-image: url("image2.jpg");
+}
+
+.img-post3{
+    background-image: url("image3.jpg");
+}
+
+
+.img-post4{
+    background-image: url("image4.jpg");
+}
+
+.img-post5{
+    background-image: url("image5.jpg");
 }
 
 .counter-info{
-    width: 40%;
+    width: 10rem;
     height: auto;
     padding: 0.5rem;
     margin: 1rem;
@@ -127,6 +154,7 @@ html,body{
     justify-content: center;
     color: white;
     text-align: center;
+    
 }
 
 .counter-icon{
@@ -138,6 +166,8 @@ html,body{
 .last-counter-icon{
     margin-right: 0;
 }
+
+
 
 .title-post{
 
@@ -152,4 +182,52 @@ html,body{
     font-size: 2rem;
     background-color: #fff;
     display: inline;
+}
+
+.img-shadow{
+    width: 100%;
+    height: 1rem;
+}
+
+.author{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.author-img{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    box-shadow: 0.05rem 0.1rem 0.1rem 0.05rem #0000002c;
+    
+}
+
+.author-info{
+    font-size: 1.2rem;
+    margin-left: 1rem;
+}
+
+.author-dot{
+    font-size: 1.7rem;
+    margin-left: 1rem;
+    color: #EC576D;
+    
+}
+
+.sum-post{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.384);
+}
+
+.fa-tag{
+    color: #EC576D; 
+}
+
+.tag{
+    margin-bottom: 2rem;
 }
