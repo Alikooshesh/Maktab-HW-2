@@ -231,3 +231,25 @@ html,body{
 .tag{
     margin-bottom: 2rem;
 }
+
+.fa-angle-up{
+    color: rgb(255, 255, 255);
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scroll-btn{
+    background-color: #EC576D;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+}
+
+.scroll-btn:hover{
+    cursor: pointer;
+}
